@@ -17,8 +17,8 @@ public class NewBehaviourScript : MonoBehaviour {
         }
     public void startgame()
     {
-        SceneManager.LoadScene("1round");
-    
+       //SceneManager.LoadScene("1round");
+        SceneManager.LoadScene("3round");
     }
     
     // Update is called once per frame

@@ -69,6 +69,7 @@ public class player13 : MonoBehaviour
         {
             Destroy(this.gameObject);                        //타켓1말고 다른애랑 잘못 부딪히면 플레이어 없애고 실패화면으로
             GameManager.instance.Result("fail", "3round");
+        
 
         }
     }
